@@ -10,6 +10,7 @@ const renderGrid = (n=16) => {
     container.appendChild(gridItem);
   }
 };
+
 const setSquares = () => {
   let squares = parseInt(prompt("How many squares?"));
   if (typeof squares === "number") {
