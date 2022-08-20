@@ -1,5 +1,3 @@
-
-
 const container = document.querySelector("#container");
 
 const renderGrid = (n=16) => {
